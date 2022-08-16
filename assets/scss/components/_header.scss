@@ -1,0 +1,25 @@
+.header {
+  background-color: #000;
+  h1 {
+    color: #fff;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .links {
+      a {
+        color: #fff;
+        margin-left: 20px;
+      }
+
+    }
+
+  }
+  .logo {
+    display: flex;
+    img {
+      max-width: 165px;
+    }
+  }
+}

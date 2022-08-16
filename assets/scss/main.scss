@@ -1,0 +1,21 @@
+/*===================================
+    Default Styles
+====================================*/
+@import 'default/generic';
+@import 'default/variables.scss';
+
+
+/*================================
+	Components Style
+=================================*/
+
+@import 'components/footer';
+@import 'components/header';
+@import 'components/loader';
+
+/*================================
+	Pages Style
+=================================*/
+
+@import 'pages/sign-up';
+@import 'pages/login';

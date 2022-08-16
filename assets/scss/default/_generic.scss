@@ -1,0 +1,70 @@
+.v-application {
+  .error {
+    background-color: transparent !important;
+    border: 0;
+    color: #f00;
+    position: absolute;
+    bottom: -10px;
+    border-color: #f00;
+  }
+  .form-group {
+    position: relative;
+    margin-bottom: 10px;
+    &.phone {
+      margin-bottom: 30px;
+      .error {
+        bottom: -25px;
+      }
+    }
+  }
+  .hasError {
+    .v-input__slot {
+      transition: all 0.5s ease;
+      &::after,
+      &::before {
+        border-color: #f00 !important;
+      }
+
+    }
+  }
+}
+.page-title {
+  margin-bottom: 25px;
+}
+.section-center {
+  display: flex;
+  justify-content: center;
+}
+.section-title {
+  margin-bottom: 30px;
+  h2 {
+    position: relative;
+    &::before {
+      content: '';
+      position: absolute;
+      width: 50px;
+      height: 3px;
+      left: 0;
+      bottom: -10px;
+      background-color: rgb(171, 1, 1);
+    }
+  }
+}
+.match-height {
+  display: flex;
+  > div {
+    // height: 100%;
+  }
+}
+
+.service-card__image {
+  display: flex;
+  justify-content: center;
+}
+body {
+  padding: 0 !important;
+}
+.btn-loader {
+  max-height: 28px;
+  margin-left: 15px;
+}
